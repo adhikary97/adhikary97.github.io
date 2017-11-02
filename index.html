@@ -13,29 +13,7 @@
   <a href="#tour" class="w3-button w3-bar-item">Tour</a>
   <a href="#contact" class="w3-button w3-bar-item">Contact</a>
 </nav>
-  <!-- Slide Show -->
-<section>
-  <img class="mySlides" src="img_la.jpg" style="width:100%">
-  <img class="mySlides" src="img_ny.jpg" style="width:100%">
-  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
-</section>
-<!-- Slide Show -->
-  
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
-}
 <section class="w3-container w3-center" style="max-width:600px">
   <h2 class="w3-wide">THE BAND</h2>
   <p class="w3-opacity"><i>We love music</i></p>
