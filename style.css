@@ -22,3 +22,16 @@ li a {
 li a:hover {
     background-color: #008B8B;
 }
+
+.right_column{
+    float: right;
+    width: 160;
+    position: relative;
+    top: -220px;
+}
+
+.left_column{
+    float: left;
+    margin-right: 600;
+    position: relative;
+}
