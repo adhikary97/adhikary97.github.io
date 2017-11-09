@@ -59,6 +59,7 @@ ul#topbar{
 }
 
 ul#nav_container{
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -68,7 +69,7 @@ ul#nav_container{
 }
 
 img#skyline{
-    /*position: fixed;*/
+    position: fixed;
     /*margin: 200;*/
     /*
     height: 250px;
