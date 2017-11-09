@@ -67,10 +67,11 @@ ul#nav_container{
     height: 40px;
 }
 
-.logo{
+img#logo{
     top: 10px;
 }
 
 img#skyline{
+    height: 500px;
     width: 100%;
 }
