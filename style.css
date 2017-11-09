@@ -67,11 +67,3 @@ ul#nav_container{
     background-color: #2F4F4F;
     height: 40px;
 }
-
-img#skyline{
-    position: fixed;
-    padding: 30px;
-    /*
-    height: 250px;
-    width: 100%;*/
-}
