@@ -35,6 +35,11 @@ li a:hover {
     margin-right: 600;
     position: relative;
 }
+
+html, body {
+ height: 100%;
+}
+
 ul#bar{
     position: fixed;
     z-index: 100; 
