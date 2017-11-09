@@ -55,6 +55,14 @@ ul#topbar{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+ul#nav_container{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2F4F4F;
+    height: 150px;
+}
 .main{
 margin-top: 100px;
 }
