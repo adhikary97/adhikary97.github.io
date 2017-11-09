@@ -35,7 +35,7 @@ li a:hover {
     margin-right: 600;
     position: relative;
 }
-bar{
+.bar{
     position: fixed;
     z-index: 100; 
     bottom: 0; 
