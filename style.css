@@ -59,9 +59,6 @@ ul#topbar{
 }
 
 ul#nav_container{
-    position: fixed;
-    /*margin: 0;*/
-    padding: 0;
     background-color: #2F4F4F;
     height: 40px;
 }
