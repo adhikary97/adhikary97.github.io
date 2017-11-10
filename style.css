@@ -60,7 +60,7 @@ ul#topbar{
 }
 
 img#skyline{
-    position: fixed;
+    position: relative;
     top: 100px;
 }
 
