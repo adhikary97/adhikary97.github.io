@@ -66,3 +66,7 @@ ul#nav_container{
     top: 500px;
     height: 40px;
 }
+img#logo{
+    position: fixed;
+    top: 700px;
+}
