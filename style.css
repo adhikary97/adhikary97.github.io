@@ -59,6 +59,11 @@ ul#topbar{
     margin: 0;
 }
 
+img#skyline{
+    position: fixed;
+    top: 100px;
+}
+
 ul#nav_container{
     position: fixed;
     overflow: hidden;
