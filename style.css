@@ -26,14 +26,15 @@ li a:hover {
 .right_column{
     float: right;
     width: 160;
-    position: relative;
-    top: -220px;
+    position: fixed;
+    top: 600px;
 }
 
 .left_column{
     float: left;
     margin-right: 600;
-    position: relative;
+    position: fixed;
+    top = 600px;
 }
 
 html, body {
