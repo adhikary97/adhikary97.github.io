@@ -34,7 +34,7 @@ li a:hover {
     float: left;
     margin-right: 600;
     position: fixed;
-    top = 600px;
+    top: 600px;
 }
 
 html, body {
