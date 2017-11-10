@@ -55,10 +55,13 @@ ul#topbar{
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    /*margin: 0;*/
+    margin: 0;
 }
 
 ul#nav_container{
+    position: fixed;
+    overflow: hidden;
     background-color: #2F4F4F;
+    top: 500px;
     height: 40px;
 }
