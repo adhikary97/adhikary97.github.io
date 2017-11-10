@@ -63,11 +63,11 @@ ul#nav_container{
     position: fixed;
     overflow: hidden;
     background-color: #2F4F4F;
-    top: 500px;
+    top: 350px;
     height: 40px;
     width: 100%;
 }
 img#logo{
-    position: fixed;
+    position: relative;
     top: 300px;
 }
