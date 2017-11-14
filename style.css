@@ -83,4 +83,6 @@ img#logo{
     position: relative;
     top: 390px;
     left: 0;
+    height: 250px;
+    width: 250px;
 }
