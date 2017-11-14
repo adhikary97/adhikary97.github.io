@@ -70,13 +70,14 @@ img#skyline{
 }
 
 ul#nav_container{
-    position: relative;
+    position: absolute;
     overflow: hidden;
     background-color: #2F4F4F;
     top: 350px;
     height: 40px;
     width: 100%;
     left: 0;
+    right: 0;
 }
 
 img#logo{
