@@ -26,9 +26,9 @@ li a:hover {
 
 .right_column{
     float: right;
-    width: 160;
-    position: fixed;
-    top: 600px;
+    right: 5px;
+    position: relative;
+    top: 400px;
 }
 
 .left_column{
