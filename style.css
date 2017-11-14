@@ -32,10 +32,9 @@ li a:hover {
 }
 
 .left_column{
-    position: absolute;
     float: left;
     margin-right: 600;
-    position: fixed;
+    position: absolute;
     top: 390px;
     left: 280px;
 }
