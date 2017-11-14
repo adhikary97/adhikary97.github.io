@@ -24,11 +24,12 @@ li a:hover {
     background-color: #008B8B;
 }
 
-.right_column{
-    float: right;
-    right: 5px;
-    position: absolute;
+img#code{
+    position: relative;
     top: 390px;
+    left: 5px;
+    height: 260px;
+    width: 250px;
 }
 
 .left_column{
