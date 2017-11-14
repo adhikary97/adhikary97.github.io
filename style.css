@@ -57,11 +57,14 @@ ul#topbar{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     margin: 0;
+    left: 0;
 }
 
 img#skyline{
     position: relative;
     top: 50px;
+    width: 100%;
+    left: 0;
 }
 
 ul#nav_container{
@@ -71,6 +74,7 @@ ul#nav_container{
     top: 350px;
     height: 40px;
     width: 100%;
+    left: 0;
 }
 
 img#logo{
