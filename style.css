@@ -61,10 +61,11 @@ ul#topbar{
 }
 
 img#skyline{
-    position: relative;
+    position: absolute;
     top: 50px;
     width: 100%;
     left: 0;
+    right: 0;
 }
 
 ul#nav_container{
