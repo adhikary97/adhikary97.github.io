@@ -27,7 +27,7 @@ li a:hover {
 .right_column{
     float: right;
     right: 5px;
-    position: relative;
+    position: absolute;
     top: 400px;
 }
 
