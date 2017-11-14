@@ -60,12 +60,12 @@ ul#topbar{
 }
 
 img#skyline{
-    position: fixed;
+    position: relative;
     top: 50px;
 }
 
 ul#nav_container{
-    position: fixed;
+    position: relative;
     overflow: hidden;
     background-color: #2F4F4F;
     top: 350px;
