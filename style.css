@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #7FFFD4;	
+    background-color: #B0C4DE;	
     left: 0;
 }
 
@@ -55,7 +55,7 @@ ul#bar{
 
 ul#topbar{
     overflow: hidden;
-    background-color: #7FFFD4;
+    background-color: #B0C4DE;
     position: absolute; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -74,7 +74,7 @@ img#skyline{
 ul#nav_container{
     position: absolute;
     overflow: hidden;
-    background-color: #7FFFD4;
+    background-color: #B0C4DE;
     top: 350px;
     height: 40px;
     width: 100%;
