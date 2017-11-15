@@ -26,6 +26,7 @@ li a:hover {
 
 img#code{
     position: absolute;
+    float: right;
     top: 390px;
     right: 5px;
     height: 260px;
