@@ -25,12 +25,12 @@ li a:hover {
 }
 
 img#code{
-    position: fixed;
+    position: absolute;
     float: right;
     top: 395px;
     right: 5px;
     height: 260px;
-    width: 270px;
+    width: 280px;
 }
 
 .left_column{
