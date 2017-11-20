@@ -25,9 +25,9 @@ li a:hover {
 }
 
 img#code{
-    position: absolute;
+    position: relative;
     float: right;
-    top: 390px;
+    top: 50px;
     right: 5px;
     height: 270px;
     width: 320px;
@@ -85,7 +85,7 @@ ul#nav_container{
 
 img#logo{
     position: relative;
-    top: 390px;
+    top: 50px;
     left: 0;
     height: 260px;
     width: 250px;
