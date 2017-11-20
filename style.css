@@ -35,8 +35,8 @@ img#code{
 
 .left_column{
     float: left;
-    position: absolute;
-    top: 390px;
+    position: relative;
+    top: 55px;
     left: 280px;
 }
 
