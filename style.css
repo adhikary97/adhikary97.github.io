@@ -61,6 +61,7 @@ ul#topbar{
     width: 100%; /* Full width */
     margin: 0;
     left: 0;
+    float: center;
 }
 
 img#skyline{
