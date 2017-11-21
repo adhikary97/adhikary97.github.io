@@ -70,7 +70,7 @@ img#skyline{
     left: 0;
     right: 0;
     opacity: 0.5;
-    filter: alpha(opacity=70);
+    filter: alpha(opacity=90);
 }
 
 ul#nav_container{
@@ -99,7 +99,7 @@ div.transbox {
     position: absolute;
     height: 290px;
     width: 750px;
-    top: 60px;
+    top: 30px;
     left: 290px;
     margin: 30px;
     background-color: #ffffff;
