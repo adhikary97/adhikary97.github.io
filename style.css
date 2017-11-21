@@ -64,6 +64,7 @@ img#logo{
     height: 260px;
     width: 260px;
     image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 p#contact{
