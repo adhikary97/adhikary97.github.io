@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFFFF;	
+    background-color: #DCDCDC;	
     left: 0;
 }
 
@@ -39,7 +39,7 @@ html, body {
 
 ul#topbar{
     overflow: hidden;
-    background-color: #FFFFFF;
+    background-color: #DCDCDC;
     position: absolute; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -76,14 +76,14 @@ div.transbox {
     top: 30px;
     left: 290px;
     margin: 30px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border: 1px solid black;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 div.transbox p {
-        margin: 2%;
-        font-weight: bold;
-        color: #000000;
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
 }
