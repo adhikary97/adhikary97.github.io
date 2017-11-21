@@ -33,29 +33,13 @@ img#code{
     width: 360px;
 }
 
-.left_column{
-    float: left;
-    position: absolute;
-    top: 60px;
-    left: 280px;
-}
-
 html, body {
     height: 100%;
 }
 
-ul#bar{
-    position: fixed;
-    z-index: 100; 
-    bottom: 0; 
-    left: 0;
-    width: 100%;
-    height: 30px;
-}
-
 ul#topbar{
     overflow: hidden;
-    background-color: #B0C4DE;
+    background-color: #FFFFFF;
     position: absolute; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
