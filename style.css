@@ -97,7 +97,10 @@ p#contact{
 
 div.transbox {
     position: relative;
-    height: 290;
+    height: 290px;
+    width: 500px;
+    top: 60;
+    right: 300px;
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
