@@ -100,7 +100,7 @@ div.transbox {
     height: 290px;
     width: 500px;
     top: 60px;
-    right: 300px;
+    left: 300px;
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
