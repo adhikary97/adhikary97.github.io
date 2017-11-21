@@ -57,16 +57,6 @@ img#skyline{
     filter: alpha(opacity=90);
 }
 
-ul#nav_container{
-    position: absolute;
-    overflow: hidden;
-    background-color: #B0C4DE;
-    top: 350px;
-    height: 40px;
-    width: 100%;
-    left: 0;
-}
-
 img#logo{
     position: relative;
     top: 55px;
