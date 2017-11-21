@@ -96,7 +96,7 @@ p#contact{
 }
 
 div.transbox {
-    position: relative;
+    position: absolute;
     height: 290px;
     width: 750px;
     top: 60px;
