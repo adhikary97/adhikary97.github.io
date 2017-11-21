@@ -63,8 +63,10 @@ img#logo{
     left: 0;
     height: 260px;
     width: 260px;
-    image-rendering: pixelated;
+    image-rendering: auto;
     image-rendering: crisp-edges;
+    image-rendering: pixelated;
+
 }
 
 p#contact{
