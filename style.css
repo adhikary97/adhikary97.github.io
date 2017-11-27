@@ -88,7 +88,7 @@ div.transbox p {
 .wrapper {
   position: relative;
   /*top: 50%;*/
-  left: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   width: 550px;
 }
@@ -126,14 +126,14 @@ to align it properly */
   to icons for glowing effect and use transition property for smooth transition effect. */
 /*facebook*/
 .wrapper ul li:hover.linkedin {
-  border: 5px solid #3b5998;
-  box-shadow: 0 0 15px #3b5998;
+  border: 5px solid #4682B4;
+  box-shadow: 0 0 15px #4682B4;
   transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-linkedin {
-  color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
+  color: #4682B4;
+  text-shadow: 0 0 15px #4682B4;
   transition: all 0.5s ease;
 }
 
