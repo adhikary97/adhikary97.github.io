@@ -87,8 +87,8 @@ div.transbox p {
 }*/
 .wrapper {
   position: relative;
-  /*top: 50%;
-  left: 50%;*/
+  /*top: 50%;*/
+  left: 40%;
   transform: translate(-50%, -50%);
   width: 550px;
 }
@@ -109,7 +109,7 @@ div.transbox p {
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid #D8E2DC;
+  border: 5px solid #000000;
   float: left;
   transition: all 0.5s ease;
 }
