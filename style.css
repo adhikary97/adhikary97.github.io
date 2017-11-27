@@ -51,40 +51,12 @@ div.transbox {
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
-/*div.transbox*/ p {
+div.transbox p {
     margin: 2%;
     font-weight: bold;
     color: #000000;
 }
-/*
-.fa {
-  padding: 20px;
-  font-size: 80px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}*/
 .wrapper {
   position: relative;
   /*top: 50%;*/
