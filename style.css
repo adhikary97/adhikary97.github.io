@@ -1,12 +1,3 @@
-img#code{
-    position: relative;
-    float: right;
-    top: 25px;
-    right: 5px;
-    height: 270px;
-    width: 360px;
-}
-
 html, body {
     height: 100%;
 }
