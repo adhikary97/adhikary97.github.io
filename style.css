@@ -51,7 +51,7 @@ div.transbox p {
 .wrapper {
   position: relative;
   /*top: 50%;*/
-  left: 25%;
+  left: 28%;
   transform: translate(-50%, -50%);
   width: 550px;
 }
