@@ -76,11 +76,11 @@ p#contact{
 
 div.transbox {
     position: absolute;
-    height: 330px;
+    height: 335px;
     width: 800px;
     top: 30px;
     left: 290px;
-    margin: 30px;
+    margin: 20px;
     background-color: #FFFFFF;
     border: 1px solid black;
     opacity: 0.6;
