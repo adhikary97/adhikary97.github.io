@@ -117,7 +117,7 @@ div.transbox p {
 /* Style the icons by setting its color and margin-top value to 20px 
 to align it properly */
 .wrapper ul li .fa {
-  color: #D8E2DC;
+  color: #000000;
   margin-top: 20px;
   transition: all 0.5s ease;
 }
@@ -125,13 +125,13 @@ to align it properly */
 /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
   to icons for glowing effect and use transition property for smooth transition effect. */
 /*facebook*/
-.wrapper ul li:hover.facebook {
+.wrapper ul li:hover.linkedin {
   border: 5px solid #3b5998;
   box-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
 
-.wrapper ul li:hover .fa-facebook {
+.wrapper ul li:hover .fa-linkedin {
   color: #3b5998;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
@@ -151,41 +151,15 @@ to align it properly */
 }
 
 /* instagram */
-.wrapper ul li:hover.instagram {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
+.wrapper ul li:hover.youtube {
+  border: 5px solid #FF0000;
+  box-shadow: 0 0 15px #FF0000;
   transition: all 0.5s ease;
 }
 
-.wrapper ul li:hover .fa-instagram {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
-  transition: all 0.5s ease;
-}
-
-/* google */
-.wrapper ul li:hover.google {
-  border: 5px solid #dd4b39;
-  box-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
-}
-
-.wrapper ul li:hover .fa-google {
-  color: #dd4b39;
-  text-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
-}
-
-/* whatsapp */
-.wrapper ul li:hover.whatsapp {
-  border: 5px solid #4dc247;
-  box-shadow: 0 0 15px #4dc247;
-  transition: all 0.5s ease;
-}
-
-.wrapper ul li:hover .fa-whatsapp {
-  color: #4dc247;
-  text-shadow: 0 0 15px #4dc247;
+.wrapper ul li:hover .fa-youtube {
+  color: #FF0000;
+  text-shadow: 0 0 15px #FF0000;
   transition: all 0.5s ease;
 }
 
