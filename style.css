@@ -51,7 +51,7 @@ div.transbox {
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-div.transbox p {
+/*div.transbox*/ p {
     margin: 2%;
     font-weight: bold;
     color: #000000;
