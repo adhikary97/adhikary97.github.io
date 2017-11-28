@@ -30,11 +30,13 @@ p#contact {
 }
 
 i#mail:hover {
+    color: #191970;
     box-shadow: 0 0 15px #191970;
     transition: all 0.5s ease;
 }
 
 i#resume:hover {
+    color: #008080;
     box-shadow: 0 0 15px #008080;
     transition: all 0.5s ease;
 }
