@@ -29,11 +29,11 @@ p#contact {
     top: 400px;
 }
 
-p#mail:hover {
+a#mail:hover {
     font-size: 24px;
 }
 
-p#resume:hover {
+a#resume:hover {
     font-size: 30px;
 }
 
