@@ -60,6 +60,10 @@ div.transbox p {
     color: #000000;
 }
 
+div.transbox#twitfeed{
+    top: 500px;
+}
+
 .wrapper {
   position: relative;
   /*top: 50%;*/
