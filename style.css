@@ -9,6 +9,7 @@ img#skyline{
     height: 100%;
     left: 0;
     right: 0;
+    background-repeat: repeat-y;
     /*opacity: 0.5;
     filter: alpha(opacity=70);*/
 }
