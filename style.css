@@ -63,6 +63,7 @@ div.transbox p {
 div.transbox#twitfeed{
     top: 500px;
     height: 500px;
+    opacity: 1;
 }
 
 .wrapper {
