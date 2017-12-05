@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    background-image: url("paper.gif");
+    background-repeat: repeat-y;
 }
 
 img#skyline{
