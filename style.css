@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    width: 100%;
     background-image: url("http://aaaea.org/il/files/2015/03/Chicago_Background.jpg");
     background-repeat: repeat-y;
 }
