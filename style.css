@@ -91,16 +91,21 @@ div.transbox#twitter{
     width: 340px;
 }
 
-div#twitter-widget-holder{
-    position: absolute;
-    top: 10px;
-    left: 1200px;
-    max-height: 400px; 
-    max-width: 320px; 
-    padding: 20px; 
-    background: #fff; 
-    border-radius: 3px; 
-    box-shadow: 2px 2px 3px rgba(0,0,0,.1); 
+#twitter-widget-holder, .twitter-timeline {
+    height:800px;
+    padding:20px;
+    background:#fff;
+    border-radius:3px;
+    box-shadow:2px 2px 3px rgba(0,0,0,.1);
+    }
+
+#twitter-widget-holder { 
+  max-height:400px; 
+  max-width:320px; 
+  padding:20px; 
+  background:#fff; 
+  border-radius:3px; 
+  box-shadow:2px 2px 3px rgba(0,0,0,.1); 
 }
 
 .wrapper {
