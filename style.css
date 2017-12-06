@@ -94,7 +94,6 @@ div.transbox#twitter{
 #twitter-widget-holder{
     position: absolute;
     top: 10px;
-    left: 1200px;
     max-height:400px; 
     max-width:320px; 
     padding:20px; 
