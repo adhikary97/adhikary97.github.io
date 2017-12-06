@@ -1,8 +1,8 @@
 html, body {
     height: 100%;
     width: 100%;
-   /* background-image: url("http://aaaea.org/il/files/2015/03/Chicago_Background.jpg");
-    background-repeat: repeat-y;*/
+    background-image: url("http://aaaea.org/il/files/2015/03/Chicago_Background.jpg");
+    background-repeat: repeat-y;
 }
 
 img#skyline{
@@ -92,7 +92,6 @@ div.transbox#twitter{
 }
 
 div#twitter-widget-holder{
-    position: absolute;
     top: 10px;
     left: 1200px;
     max-height:400px; 
