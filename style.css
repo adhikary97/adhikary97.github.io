@@ -65,14 +65,21 @@ div.transbox p {
 }
 
 div.transbox#twitfeed{
-    top: 500px;
-    height: 500px;
+    position: absolute;
+    top: 10px;
+    height: 335px;
     opacity: 1;
+    left: 600px;
+    width: 250px;
 }
 
 a#twit{
-   top: 500px;
-   height: 500px; 
+   position: absolute;
+   top: 10px;
+   height: 335px;
+   left: 600px;
+   width: 250px;
+   
 }
 
 .wrapper {
