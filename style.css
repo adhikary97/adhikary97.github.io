@@ -82,6 +82,15 @@ a#twit{
    
 }
 
+div.transbox#twitter{
+    position: absolute;
+    top: 10px;
+    height: 335px;
+    opacity: 1;
+    left: 1200px;
+    width: 250px;
+}
+
 .wrapper {
   position: relative;
   /*top: 50%;*/
