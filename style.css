@@ -92,14 +92,15 @@ div.transbox#twitter{
 }
 
 div#twitter-widget-holder{
+    position: absolute;
     top: 10px;
     left: 1200px;
-    max-height:400px; 
-    max-width:320px; 
-    padding:20px; 
-    background:#fff; 
-    border-radius:3px; 
-    box-shadow:2px 2px 3px rgba(0,0,0,.1); 
+    max-height: 400px; 
+    max-width: 320px; 
+    padding: 20px; 
+    background: #fff; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 3px rgba(0,0,0,.1); 
 }
 
 .wrapper {
