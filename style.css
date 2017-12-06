@@ -70,6 +70,11 @@ div.transbox#twitfeed{
     opacity: 1;
 }
 
+a#twit{
+   top: 500px;
+   height: 500px; 
+}
+
 .wrapper {
   position: relative;
   /*top: 50%;*/
