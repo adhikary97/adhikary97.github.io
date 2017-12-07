@@ -24,9 +24,9 @@ img#logo{
     left: 0;
     height: 260px;
     width: 260px;
-    /*image-rendering: auto;
+    image-rendering: auto;
     image-rendering: crisp-edges;
-    image-rendering: pixelated;*/.
+    image-rendering: pixelated;
     border-radius: 5px;
 }
 
