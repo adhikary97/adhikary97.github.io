@@ -56,7 +56,7 @@ div.transbox {
     border: 1px solid black;
     opacity: 0.7;
     filter: alpha(opacity=70); /* For IE8 and earlier */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 div.transbox p {
