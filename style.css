@@ -67,7 +67,6 @@ div.transbox {
 
 p.typewriter {
   color: black;
-  font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 5px solid black; /* The typwriter cursor */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
