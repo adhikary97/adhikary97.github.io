@@ -8,14 +8,11 @@ html, body {
 
 img#skyline{
     position: absolute;
-    /*top: 50px;*/
     width: 100%;
     height: 100%;
     left: 0;
     right: 0;
     background-repeat: repeat-y;
-    /*opacity: 0.5;
-    filter: alpha(opacity=70);*/
 }
 
 img#logo{
