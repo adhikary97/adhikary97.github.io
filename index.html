@@ -75,17 +75,17 @@
      </div>
    
    <script>
-    var i = 0;
-    var txt = 'I am an undergraduate student at Purdue University majoring in Computer Engineering.<br>My interests are coding, playing soccer, and hip-hop music.<br>I am looking to explore areas related to software engineering,<br>artificial intelligence, and machine learning.';
-    var speed = 50;
+     var i = 0;
+     var txt = 'I am an undergraduate student at Purdue University majoring in Computer Engineering. My interests are coding, playing soccer, and hip-hop music. I am looking to explore areas related to software engineering, artificial intelligence, and machine learning.';
+     var speed = 60;
 
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("typewriter").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
+     function typeWriter() {
+       if (i < txt.length) {
+         document.getElementById("typewriter").innerHTML += txt.charAt(i);
+         i++;
+         setTimeout(typeWriter, speed);
       }
-    }
+     }
    </script>
    
   </body>
