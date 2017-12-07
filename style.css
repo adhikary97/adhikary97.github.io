@@ -64,34 +64,9 @@ div.transbox p {
     color: #000000;
 }
 
-div.transbox#twitfeed{
-    position: absolute;
-    top: 10px;
-    height: 335px;
-    opacity: 1;
-    left: 1200px;
-    width: 250px;
-}
-
-a#twit{
-   position: absolute;
-   top: 10px;
-   height: 335px;
-   left: 1200px;
-   width: 250px;
-   
-}
-
-div.transbox#twitter{
-    position: absolute;
-    top: 10px;
-    height: 420px;
-    opacity: 1;
-    left: 1200px;
-    width: 340px;
-}
-
 #twitter-widget-holder, .twitter-timeline {
+    top: 10px;
+    left: 1200px;
     height:800px;
     padding:20px;
     background:#fff;
@@ -100,6 +75,8 @@ div.transbox#twitter{
     }
 
 #twitter-widget-holder { 
+  top: 10px;
+  left: 1200px;
   max-height:400px; 
   max-width:320px; 
   padding:20px; 
