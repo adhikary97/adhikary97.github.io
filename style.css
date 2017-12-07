@@ -103,9 +103,9 @@ div.transbox p {
   and float them to left and set its border and border-radius.
  */
 .wrapper ul li {
-  width: 75px;
-  height: 75px;
-  line-height: 75px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   margin: 0 10px;
   text-align: center;
   cursor: pointer;
