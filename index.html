@@ -33,7 +33,7 @@
  </head>
  
  
-  <body bgcolor=#FFFFFF>
+  <body onLoad=bgcolor=#FFFFFF>
     
     
      <!-- <p id="name"><a href="index.html"><font size="3" face="verdana" style="font-weight:bold">Paras Adhikary</font></a></p>-->
@@ -48,8 +48,7 @@
 
     <div class="background">
       <div class="transbox">
-        <p id = "typewriter"><font size = "3" face="verdana">I am an undergraduate student at Purdue University majoring in Computer Engineering.<br>My interests are coding, playing soccer, and hip-hop music.<br>I am looking to explore areas
-                  related to software engineering,<br>artificial intelligence, and machine learning.</font></p>
+        <p id = "typewriter"><font size = "3" face="verdana"></font></p>
         <p id="contact"><font size="3" face="verdana">Contact me at: <a href="mailto:adhikary@purdue.edu?"><i style="font-size:24px" class="fa" id=mail>&#xf0e0;</i>
 </a></font></p>
         <p><font size="3" face="verdana">Check out my:<br>Resume: <a href="Paras Adhikary_Resume_10.23.17 1.pdf" download><i style="font-size:24px" class="fa" id="resume">&#xf1c1;</i></a></font></p>
@@ -74,6 +73,20 @@
      <div id="twitter-widget-holder">
       <a class="twitter-timeline" href="https://twitter.com/PardoxicalParas?ref_src=twsrc%5Etfw" data-chrome="transparent noscrollbar" width="280" data-tweet-limit="10">Tweets by PardoxicalParas</a> 
      </div>
+   
+   <script>
+    var i = 0;
+    var txt = 'I am an undergraduate student at Purdue University majoring in Computer Engineering.<br>My interests are coding, playing soccer, and hip-hop music.<br>I am looking to explore areas related to software engineering,<br>artificial intelligence, and machine learning.';
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("typewriter").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+   </script>
    
   </body>
   
