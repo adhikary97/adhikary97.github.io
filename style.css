@@ -21,8 +21,8 @@ img#skyline{
 img#logo{
     position: relative;
     top: 30px;
-    left: 0;
-    height: 260px;
+    left: 20px;
+    height: 270px;
     width: 260px;
     image-rendering: auto;
     image-rendering: crisp-edges;
