@@ -65,6 +65,7 @@ div.transbox p {
 }
 
 #twitter-widget-holder, .twitter-timeline {
+    position: absolute;
     top: 10px;
     left: 1200px;
     height:800px;
@@ -75,6 +76,7 @@ div.transbox p {
     }
 
 #twitter-widget-holder { 
+  position: absolute;
   top: 10px;
   left: 1200px;
   max-height:400px; 
