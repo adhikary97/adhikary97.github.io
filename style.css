@@ -65,7 +65,7 @@ div.transbox {
     color: #000000;
 }*/
 
-.typewriter p {
+p.typewriter {
   color: #fff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
