@@ -26,7 +26,6 @@ img#logo{
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
-    border-radius: 5px;
 }
 
 p#contact {
