@@ -12,25 +12,23 @@ img#skyline{
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 0;
-    right: 0;
-    background-repeat: repeat-y;
+    /*background-repeat: repeat-y;*/
 }
 
 img#logo{
     position: relative;
-    top: 30px;
-    left: 20px;
-    height: 300px;
-    width: 275px;
+    top: 5%;
+    left: 1%;
+    height: 38%;
+    width: 16%;
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
-    border-radius: 5px;
+    border-radius: 1%;
 }
 
 p#contact {
-    top: 400px;
+    top: 50%;
 }
 
 i#mail:hover {
@@ -47,11 +45,10 @@ i#resume:hover {
 
 div.transbox {
     position: absolute;
-    height: 300px;
-    width: 850px;
-    top: 10px;
-    left: 300px;
-    margin: 20px;
+    height: 40%;
+    width: 60%;
+    top: 5%;
+    left: 18%;
     background-color: #FFFFFF;
     border: 1px solid black;
     opacity: 0.7;
@@ -67,25 +64,26 @@ div.transbox p {
 
 #twitter-widget-holder, .twitter-timeline {
     position: absolute;
-    top: 30px;
-    left: 1200px;
-    height:800px;
+    top: 5%;
+    left: 79%;
+    height:46%;
+    width: 20%;
     padding:20px;
     background:#fff;
     border-radius:3px;
     box-shadow:2px 2px 3px rgba(0,0,0,.1);
     }
 
-#twitter-widget-holder { 
+#twitter-widget-holder {
   position: absolute;
-  top: 30px;
-  left: 1200px;
-  max-height:400px; 
-  max-width:330px; 
-  padding:20px; 
-  background:#fff; 
-  border-radius:3px; 
-  box-shadow:2px 2px 3px rgba(0,0,0,.1); 
+  top: 5%;
+  left: 79%;
+  max-height: 47%;
+  max-width: 21%;
+  padding:20px;
+  background:#fff;
+  border-radius:3px;
+  box-shadow:2px 2px 3px rgba(0,0,0,.1);
 }
 
 .wrapper {
@@ -101,14 +99,14 @@ div.transbox p {
   list-style: none;
 }
 
-/* Style the list items inside the UL list, by setting its width, height and line-height 
+/* Style the list items inside the UL list, by setting its width, height and line-height
   and float them to left and set its border and border-radius.
  */
 .wrapper ul li {
-  width: 65px;
-  height: 65px;
-  line-height: 65px;
-  margin: 0 10px;
+  width: 13%;
+  height: 10%;
+  line-height: 45px;
+  margin: 0 1%;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
@@ -117,11 +115,11 @@ div.transbox p {
   transition: all 0.5s ease;
 }
 
-/* Style the icons by setting its color and margin-top value to 20px 
+/* Style the icons by setting its color and margin-top value to 20px
 to align it properly */
 .wrapper ul li .fa {
   color: #000000;
-  margin-top: 15px;
+  margin-top: 40%;
   transition: all 0.5s ease;
 }
 
