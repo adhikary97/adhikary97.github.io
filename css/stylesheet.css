@@ -1,0 +1,212 @@
+/*
+VERDIGRIS-#3AAFB9
+RICH BLACK-#093A3E
+MEDIUM SKY BLUE-#64E9EE
+GRICH BLACK (FOGRA29)-#001011
+LIGHT CORNFLOWER BLUE-#97C8EB
+
+/* Global Styles
+------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Ranga', cursive;
+    text-shadow: 1px 1px #000000;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+a {
+    color: #64E9EE;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background: #0F084B;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Header and Footer
+------------------------------*/
+header, footer {
+    background: #093A3E;
+    color: #97C8EB;
+
+}
+
+/* header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.download:hover {
+    background: #E84855;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.twitter:hover {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.linkedin:hover {
+    color: #4682B4;
+    text-shadow: 0 0 15px #0077B5;
+    transition: all 0.5s ease;
+}
+
+.youtube:hover  {
+    color: #FF0000;
+    text-shadow: 0 0 15px #FF0000;
+    transition: all 0.5s ease;
+}
+
+.mail:hover  {
+    color: #157145;
+    text-shadow: 0 0 15px #157145;
+    transition: all 0.5s ease;
+}
+
+/* Navigation
+------------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #0F084B;
+    text-shadow: 0 0 15px #0F084B;
+    transition: all 0.5s ease;
+}
+
+/* Work Experience
+------------------------------*/
+.work{
+    background: #E5E5E5;
+}
+
+h3 ~ p{
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Education
+------------------------------*/
+.education {
+    background: linear-gradient(rgba(173, 186, 189, 0.8), rgba(173, 186, 189, 0.5)),
+                    url(../images/pic.jpg) no-repeat fixed;
+    background-size: cover;
+    color: black;
+}
+
+.education p {
+    font-weight: 900;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
+/* Media Queries
+------------------------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }    
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 200px;
+    }
+}
