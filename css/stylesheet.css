@@ -121,6 +121,12 @@ footer{
     transition: all 0.5s ease;
 }
 
+.github:hover  {
+    color: orange;
+    text-shadow: 0 0 15px orange;
+    transition: all 0.5s ease;
+}
+
 .mail:hover  {
     color: #157145;
     text-shadow: 0 0 15px #157145;
