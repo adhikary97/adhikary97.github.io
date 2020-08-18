@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image:
+    linear-gradient(
+      to top, 
+      black, #14248A
+    );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
