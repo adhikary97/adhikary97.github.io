@@ -21,6 +21,7 @@ const LinkList = () => {
     'https://www.youtube.com/channel/UCS5TBjWDhNmf2GZO4nx2SLw?sub_confirmation=1',
     'https://www.instagram.com/paras.adhikary/',
     'https://twitter.com/paras_ad',
+    'https://github.com/adhikary97',
   ];
   const list = links.map((link) => <LinkButton key={link} link={link} />);
 

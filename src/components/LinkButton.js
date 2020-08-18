@@ -5,6 +5,7 @@ import tiktokIcon from '@iconify/icons-simple-icons/tiktok';
 import youtubeIcon from '@iconify/icons-simple-icons/youtube';
 import twitterIcon from '@iconify/icons-simple-icons/twitter';
 import instagramIcon from '@iconify/icons-simple-icons/instagram';
+import githubIcon from '@iconify/icons-simple-icons/github';
 import './WidthLimit.scss';
 
 const LinkButton = (props) => {
@@ -18,6 +19,8 @@ const LinkButton = (props) => {
     icon = <Icon icon={twitterIcon} />;
   } else if (props.link.includes('tiktok')) {
     icon = <Icon icon={tiktokIcon} />;
+  } else if (props.link.includes('github')) {
+    icon = <Icon icon={githubIcon} />;
   }
 
   return (
