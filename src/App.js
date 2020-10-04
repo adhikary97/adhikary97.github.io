@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import About from './pages/About';
 import Links from './pages/Links';
+import Projects from './pages/Projects';
 import MainNavigation from './components/MainNavigation';
 
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
         <Switch>
           <Route path="/" exact>
             <Links />
+          </Route>
+          <Route path="/projects" exact>
+            <Projects />
           </Route>
           <Route path="/about" exact>
             <About />

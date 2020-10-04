@@ -1,12 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './MainNavigation.scss';
 
 const MainNavigation = () => {
+  const [currentKey, setCurrentKey] = useState(1);
   const path = window.location.pathname;
-  const checker = path === '/about' ? 2 : 1;
-  const [currentKey, setCurrentKey] = useState(checker);
+  useEffect(() => {
+    switch (path) {
+      case '/about':
+        setCurrentKey(3);
+        break;
+      case '/projects':
+        setCurrentKey(2);
+        break;
+      default:
+        setCurrentKey(1);
+        break;
+    }
+  }, [path]);
 
   return (
     <Navbar
@@ -33,7 +45,10 @@ const MainNavigation = () => {
           <Nav.Link as={Link} eventKey={1} to="/">
             Links
           </Nav.Link>
-          <Nav.Link as={Link} eventKey={2} to="/about">
+          <Nav.Link as={Link} eventKey={2} to="/projects">
+            Projects
+          </Nav.Link>
+          <Nav.Link as={Link} eventKey={3} to="/about">
             About
           </Nav.Link>
         </Nav>

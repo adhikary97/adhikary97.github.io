@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { Icon } from '@iconify/react';
 import tiktokIcon from '@iconify/icons-simple-icons/tiktok';
@@ -9,19 +9,20 @@ import githubIcon from '@iconify/icons-simple-icons/github';
 import './WidthLimit.scss';
 
 const LinkButton = (props) => {
-  let icon = '';
-
-  if (props.link.includes('youtube')) {
-    icon = <Icon icon={youtubeIcon} />;
-  } else if (props.link.includes('instagram')) {
-    icon = <Icon icon={instagramIcon} />;
-  } else if (props.link.includes('twitter')) {
-    icon = <Icon icon={twitterIcon} />;
-  } else if (props.link.includes('tiktok')) {
-    icon = <Icon icon={tiktokIcon} />;
-  } else if (props.link.includes('github')) {
-    icon = <Icon icon={githubIcon} />;
-  }
+  const [icon, setIcon] = useState('');
+  useEffect(() => {
+    if (props.link.includes('youtube')) {
+      setIcon(<Icon icon={youtubeIcon} />);
+    } else if (props.link.includes('instagram')) {
+      setIcon(<Icon icon={instagramIcon} />);
+    } else if (props.link.includes('twitter')) {
+      setIcon(<Icon icon={twitterIcon} />);
+    } else if (props.link.includes('tiktok')) {
+      setIcon(<Icon icon={tiktokIcon} />);
+    } else if (props.link.includes('github')) {
+      setIcon(<Icon icon={githubIcon} />);
+    }
+  }, [props]);
 
   return (
     <Button
