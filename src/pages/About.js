@@ -29,7 +29,7 @@ const About = () => {
         </h5>
         <Button
           variant="outline-light"
-          href={process.env.PUBLIC_URL + 'AdhikaryParas2020.pdf'}
+          href={process.env.PUBLIC_URL + 'AdhikaryParas2020_2.pdf'}
           size="lg"
           download
         >
