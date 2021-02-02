@@ -3,7 +3,6 @@ import { Button } from 'react-bootstrap';
 import { Icon } from '@iconify/react';
 import tiktokIcon from '@iconify/icons-simple-icons/tiktok';
 import youtubeIcon from '@iconify/icons-simple-icons/youtube';
-import twitterIcon from '@iconify/icons-simple-icons/twitter';
 import instagramIcon from '@iconify/icons-simple-icons/instagram';
 import githubIcon from '@iconify/icons-simple-icons/github';
 import discordIcon from '@iconify/icons-simple-icons/discord';
@@ -16,14 +15,14 @@ const LinkButton = (props) => {
       setIcon(<Icon icon={youtubeIcon} />);
     } else if (props.link.includes('instagram')) {
       setIcon(<Icon icon={instagramIcon} />);
-    } else if (props.link.includes('twitter')) {
-      setIcon(<Icon icon={twitterIcon} />);
     } else if (props.link.includes('tiktok')) {
       setIcon(<Icon icon={tiktokIcon} />);
     } else if (props.link.includes('github')) {
       setIcon(<Icon icon={githubIcon} />);
     } else if (props.link.includes('discord')) {
       setIcon(<Icon icon={discordIcon} />);
+    } else {
+      setIcon('Nevaland Podcast');
     }
   }, [props]);
 
