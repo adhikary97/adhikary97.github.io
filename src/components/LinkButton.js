@@ -22,7 +22,7 @@ const LinkButton = (props) => {
     } else if (props.link.includes('discord')) {
       setIcon(<Icon icon={discordIcon} />);
     } else {
-      setIcon('Nevaland Podcast');
+      setIcon('Uncaught Exceptions Pod');
     }
   }, [props]);
 
