@@ -4,7 +4,7 @@ import LinkButton from './LinkButton';
 
 const LinkList = () => {
   const links = [
-    'https://anchor.fm/uncaught-exceptions',
+    'https://anchor.fm/uncaughtexceptions',
     'https://discord.gg/qC5VbE6eq4',
     'https://www.youtube.com/channel/UCS5TBjWDhNmf2GZO4nx2SLw?sub_confirmation=1',
     'https://www.tiktok.com/@paras.adhikary',
