@@ -21,8 +21,10 @@ const LinkButton = (props) => {
       setIcon(<Icon icon={githubIcon} />);
     } else if (props.link.includes('discord')) {
       setIcon(<Icon icon={discordIcon} />);
-    } else {
+    } else if (props.link.includes('anchor')) {
       setIcon('Uncaught Exceptions Pod');
+    } else if (props.link.includes('bitclout')) {
+      setIcon('BitClout');
     }
   }, [props]);
 
