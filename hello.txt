@@ -1,0 +1,1 @@
+To verify ownership of , navigate to your DNS provider and add a TXT record with this value:Then, check the record to complete the verification.
